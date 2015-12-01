@@ -17,4 +17,5 @@ StripTrailingWhitespace: Yes
 
 BuildType: Package
 PackageUseDevtools: Yes
-PackageInstallArgs: --no-multiarch --with-keep.source
+PackageInstallArgs: --no-multiarch --with-keep.source -l "H:/R/win-library/3.2"
+PackageBuildBinaryArgs: -l "H:/R/win-library/3.2"

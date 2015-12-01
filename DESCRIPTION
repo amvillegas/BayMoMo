@@ -8,5 +8,9 @@ Maintainer: Andres Villegas <andresmauriciovillegas@gmail.com>
 Description: Implemenation of some common stochastic mortality models using a Bayesian framework
 URL: http://github.com/amvillegas/BayMoMo
 BugReports: http://github.com/amvillegas/BayMoMo/issues
+Depends:
+    R (>= 3.2.0),
+    rjags (>= 4-4)
+SystemRequirements:	JAGS 4.x.y (http://mcmc-jags.sourceforge.net)
 License: GPL (>= 2)
 LazyData: TRUE
